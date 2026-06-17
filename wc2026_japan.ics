@@ -1,0 +1,164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WC2026 Japan Schedule v2//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:⚽ W杯2026 日本代表 全候補日程
+X-WR-TIMEZONE:Asia/Tokyo
+X-WR-CALDESC:FIFA W杯2026 日本代表戦・決勝T全候補パターン（日本時間・放送局付き）
+
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:wc2026-jpn-gl1@calendar
+SUMMARY:🇯🇵【済】日本 1-1 🇳🇱 オランダ【F組第1節】
+DTSTART;TZID=Asia/Tokyo:20260615T050000
+DTEND;TZID=Asia/Tokyo:20260615T070000
+DESCRIPTION:✅ 結果：日本 1-1 オランダ（ドロー）\n\n📺 NHK総合・NHK ONE\n📱 DAZN（無料）\n🏟 ダラス スタジアム（米テキサス州）
+LOCATION:ダラス スタジアム（アメリカ）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-gl2@calendar
+SUMMARY:🇯🇵 日本 vs 🇹🇳 チュニジア【F組第2節】
+DTSTART;TZID=Asia/Tokyo:20260621T130000
+DTEND;TZID=Asia/Tokyo:20260621T150000
+DESCRIPTION:📺 日本テレビ系\n📱 DAZN（無料）\n🏟 モンテレースタジアム（メキシコ）\n\n⚠️ GLの重要な一戦。勝利で突破がほぼ確定。
+LOCATION:モンテレースタジアム（メキシコ）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-gl3@calendar
+SUMMARY:🇯🇵 日本 vs 🇸🇪 スウェーデン【F組第3節】
+DTSTART;TZID=Asia/Tokyo:20260626T080000
+DTEND;TZID=Asia/Tokyo:20260626T100000
+DESCRIPTION:📺 NHK総合・NHK ONE\n📱 DAZN（無料）\n🏟 ダラス スタジアム（アメリカ）\n\n⚠️ GL最終節・突破ラインは第2節結果次第
+LOCATION:ダラス スタジアム（アメリカ）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r32-1i@calendar
+SUMMARY:🇯🇵【候補①・1位通過】日本 R32 vs C組2位 7/1 10:00
+DTSTART;TZID=Asia/Tokyo:20260701T100000
+DTEND;TZID=Asia/Tokyo:20260701T120000
+DESCRIPTION:【F組1位通過の場合】C組2位と対戦\nC組：ブラジル・モロッコ・コスタリカ・コンゴ民主共和国\n→ 対戦候補：モロッコ or コスタリカ（ブラジルが1位の場合）\n\n📺 フジテレビ系（予定）\n📱 DAZN（無料）\n\n⚠️ 対戦相手・日程は通過順位によって変わります\n⚠️ 1位通過のキックオフは 10:00 JST 固定
+LOCATION:未定（アメリカ国内）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r32-2i@calendar
+SUMMARY:🇯🇵【候補②・2位通過】日本 R32 vs C組1位 6/30 2:00
+DTSTART;TZID=Asia/Tokyo:20260630T020000
+DTEND;TZID=Asia/Tokyo:20260630T040000
+DESCRIPTION:【F組2位通過の場合】C組1位と対戦\nC組：ブラジル・モロッコ・コスタリカ・コンゴ民主共和国\n→ 対戦候補：ブラジル or モロッコ（最有力）\n\n📺 フジテレビ系（予定）\n📱 DAZN（無料）\n\n⚠️ 2位通過のキックオフは 2:00 JST 固定
+LOCATION:未定（アメリカ国内）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r32-3a@calendar
+SUMMARY:🇯🇵【候補③・3位通過A】日本 R32 vs A組1位 7/3 10:00
+DTSTART;TZID=Asia/Tokyo:20260703T100000
+DTEND;TZID=Asia/Tokyo:20260703T120000
+DESCRIPTION:【F組3位通過かつA組1位と当たるケース（確率低め：3通り/495通り）】\nA組：メキシコ・韓国・南アフリカ・チェコ\n→ 対戦候補：メキシコ or 韓国（最有力）\n\n📺 フジテレビ系（予定）\n📱 DAZN（無料）\n\n⚠️ 3位通過の場合は複数グループから対戦相手が決まる複雑なルールが適用されます
+LOCATION:未定（アメリカ国内）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r32-3b@calendar
+SUMMARY:🇯🇵【候補④・3位通過B】日本 R32 vs B組1位 7/3 10:00
+DTSTART;TZID=Asia/Tokyo:20260703T100000
+DTEND;TZID=Asia/Tokyo:20260703T120000
+DESCRIPTION:【F組3位通過かつB組1位と当たるケース（確率低め：5通り/495通り）】\nB組：カナダ・アルゼンチン・ボスニアH・カタール\n→ 対戦候補：アルゼンチン or カナダ（最有力）\n\n📺 フジテレビ系（予定）\n📱 DAZN（無料）
+LOCATION:未定（アメリカ国内）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r32-3d@calendar
+SUMMARY:🇯🇵【候補⑤・3位通過D】日本 R32 vs D組1位 7/3 10:00
+DTSTART;TZID=Asia/Tokyo:20260703T100000
+DTEND;TZID=Asia/Tokyo:20260703T120000
+DESCRIPTION:【F組3位通過かつD組1位と当たるケース（確率低め：11通り/495通り）】\nD組：フランス・ウルグアイ・パナマ・スイス\n→ 対戦候補：フランス or ウルグアイ（最有力）\n\n📺 フジテレビ系（予定）\n📱 DAZN（無料）
+LOCATION:未定（アメリカ国内）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r32-3e@calendar
+SUMMARY:🇯🇵【候補⑥・3位通過E】日本 R32 vs E組1位 7/3 10:00
+DTSTART;TZID=Asia/Tokyo:20260703T100000
+DTEND;TZID=Asia/Tokyo:20260703T120000
+DESCRIPTION:【F組3位通過かつE組1位と当たるケース（35通り/495通り）】\nE組：スペイン・カーボベルデ・ベルギー・エルサルバドル\n→ 対戦候補：スペイン or ベルギー（最有力）\n\n📺 フジテレビ系（予定）\n📱 DAZN（無料）
+LOCATION:未定（アメリカ国内）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r32-3i@calendar
+SUMMARY:🇯🇵【候補⑦・3位通過I】日本 R32 vs I組1位 7/3 10:00（最有力）
+DTSTART;TZID=Asia/Tokyo:20260703T100000
+DTEND;TZID=Asia/Tokyo:20260703T120000
+DESCRIPTION:【F組3位通過かつI組1位と当たるケース（276通り/495通り・最多パターン）】\nI組：フランス・ポルトガル・コンゴ民主共和国・グアテマラ\n→ 対戦候補：フランス or ポルトガル（強豪必至）\n\n📺 フジテレビ系（予定）\n📱 DAZN（無料）\n\n⚠️ 3位通過の場合はフランスかポルトガルと当たる確率が最も高い（55%以上）
+LOCATION:未定（アメリカ国内）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-r16-a@calendar
+SUMMARY:🇯🇵【候補・R16】日本 ラウンド16（1位/2位通過後） 7/5〜7/6
+DTSTART;TZID=Asia/Tokyo:20260705T040000
+DTEND;TZID=Asia/Tokyo:20260705T060000
+DESCRIPTION:【R32勝利の場合・1位または2位通過ルート】\nR16で当たる可能性のある相手：\n  ・E/I/Jなど隣接ブロックの2位通過チーム（1位通過時）\n  ・同上（2位通過時）\n→ R32勝利後に具体的な対戦相手が確定します\n\n📺 NHK総合（予定）\n📱 DAZN（無料）\n\nR16は7/4〜7/7の期間に実施。日程は進出するブロック次第で変わります
+LOCATION:未定
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-qf@calendar
+SUMMARY:🇯🇵【候補・QF】日本 準々決勝（進出した場合） 7/9〜7/11
+DTSTART;TZID=Asia/Tokyo:20260709T040000
+DTEND;TZID=Asia/Tokyo:20260709T060000
+DESCRIPTION:📺 NHK総合（予定）\n📱 DAZN（無料）\n\n準々決勝は7/9〜7/11が開催期間
+LOCATION:未定
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-sf@calendar
+SUMMARY:🇯🇵【候補・SF】日本 準決勝（進出した場合） 7/14 or 7/15 4:00
+DTSTART;TZID=Asia/Tokyo:20260714T040000
+DTEND;TZID=Asia/Tokyo:20260714T060000
+DESCRIPTION:📺 NHK総合（予定）\n📱 DAZN（無料・準決勝は無料配信予定）\n\n準決勝のキックオフは4:00 JST固定
+LOCATION:MetLifeスタジアム or SoFiスタジアム（アメリカ）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-jpn-final@calendar
+SUMMARY:🇯🇵【夢】日本 決勝（進出した場合） 7/19 4:00
+DTSTART;TZID=Asia/Tokyo:20260719T040000
+DTEND;TZID=Asia/Tokyo:20260719T060000
+DESCRIPTION:📺 NHK総合（確定・決勝は地上波確定）\n📱 DAZN（無料・決勝は無料配信確定）\n\n🏟 MetLifeスタジアム（ニュージャージー、アメリカ）
+LOCATION:MetLifeスタジアム（ニュージャージー、アメリカ）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-ref-3rd@calendar
+SUMMARY:🥉 3位決定戦 7/18 4:00
+DTSTART;TZID=Asia/Tokyo:20260718T040000
+DTEND;TZID=Asia/Tokyo:20260718T060000
+DESCRIPTION:📺 NHK総合\n📱 DAZN
+LOCATION:未定（アメリカ）
+END:VEVENT
+
+BEGIN:VEVENT
+UID:wc2026-ref-final@calendar
+SUMMARY:🏆 W杯2026 決勝 7/19 4:00
+DTSTART;TZID=Asia/Tokyo:20260719T040000
+DTEND;TZID=Asia/Tokyo:20260719T060000
+DESCRIPTION:📺 NHK総合（地上波確定）\n📱 DAZN（無料）\n🏟 MetLifeスタジアム（ニュージャージー）
+LOCATION:MetLifeスタジアム（ニュージャージー、アメリカ）
+END:VEVENT
+
+END:VCALENDAR
